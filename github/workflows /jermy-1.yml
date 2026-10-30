@@ -1,4 +1,4 @@
-name: Temporary runner debugging - 2
+name: Jermy 004 - 1
 
 on:
   workflow_dispatch:
@@ -7,11 +7,11 @@ permissions:
   contents: read
 
 concurrency:
-  group: tailscale-work-2
+  group: tailscale-jermy-1
   cancel-in-progress: false
 
 env:
-  TS_HOSTNAME: work-2
+  TS_HOSTNAME: jermy-1
 
 jobs:
   debug:
